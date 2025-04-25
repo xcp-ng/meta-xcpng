@@ -1,0 +1,7 @@
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  ##OEROOT##/../dnf-bridge/meta \
+  ##OEROOT##/../meta-xcpng \
+  "
