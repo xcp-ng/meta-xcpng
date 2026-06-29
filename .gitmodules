@@ -1,0 +1,3 @@
+[submodule "dnf-bridge"]
+	path = dnf-bridge
+	url = https://github.com/xcp-ng/dnf-bridge
