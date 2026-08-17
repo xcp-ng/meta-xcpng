@@ -15,5 +15,5 @@ To mirror the DNF state of Almalinux 10.0 into `meta-almalinux`, use
 podman run --rm --platform linux/amd64/v2 -it \
     -v $PWD:/xcpng \
     ghcr.io/almalinux/10-base:10 \
-    /xcpng/dnf-bridge/scripts/gen-dnf-proxy /xcpng/meta-almalinux
+    sh -c 'dnf install -y git && /xcpng/dnf-bridge/scripts/gen-dnf-proxy.py /xcpng/meta-almalinux'
 ```
