@@ -25,3 +25,6 @@
 [submodule "meta-xcpng/recipes-epel-queue/dev86"]
 	path = meta-xcpng/recipes-epel-queue/dev86
 	url = https://github.com/xcp-ng-rpms/dev86.git
+[submodule "meta-xcpng/recipes-epel-queue/figlet"]
+	path = meta-xcpng/recipes-epel-queue/figlet
+	url = https://src.fedoraproject.org/rpms/figlet.git
