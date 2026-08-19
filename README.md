@@ -4,7 +4,13 @@ Status: under construction
 
 This is a BitBake layer to build XCP-ng 9.x.  Its role is to collect
 all informations necessary to build XCP-ng, from individual RPMs to
-DNF repositories and insallation ISO.
+DNF repositories and installation ISO.
+
+It uses [dnf-bridge](https://github.com/xcp-ng/dnf-bridge) to sync the
+[meta-almalinux](https://github.com/xcp-ng/meta-almalinux) layer
+against the AlmaLinux and EPEL DNF repositories, and to provide the
+guts powering the recipes in the `meta-xcpng` layer included here.
+
 
 ## maintenance
 
