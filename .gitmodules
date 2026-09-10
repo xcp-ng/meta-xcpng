@@ -1,0 +1,45 @@
+[submodule "dnf-bridge"]
+	path = dnf-bridge
+	url = https://github.com/xcp-ng/dnf-bridge
+[submodule "meta-almalinux"]
+	path = meta-almalinux
+	url = https://github.com/xcp-ng/meta-almalinux.git
+[submodule "meta-xcpng/recipes-xcpng/libempserver"]
+	path = meta-xcpng/recipes-xcpng/libempserver
+	url = https://github.com/xcp-ng-rpms/libempserver.git
+[submodule "meta-xcpng/recipes-xcpng/xcp-ng-release"]
+	path = meta-xcpng/recipes-xcpng/xcp-ng-release
+	url = https://github.com/xcp-ng-rpms/xcp-ng-release
+[submodule "meta-xcpng/recipes-xcpng/branding-xcp-ng"]
+	path = meta-xcpng/recipes-xcpng/branding-xcp-ng
+	url = https://github.com/xcp-ng-rpms/branding-xcp-ng
+[submodule "meta-xcpng/recipes-xcpng/ocaml"]
+	path = meta-xcpng/recipes-xcpng/ocaml
+	url = https://github.com/xcp-ng-rpms/ocaml
+[submodule "meta-xcpng/recipes-xcpng/ocaml-findlib"]
+	path = meta-xcpng/recipes-xcpng/ocaml-findlib
+	url = https://github.com/xcp-ng-rpms/ocaml-findlib
+[submodule "meta-xcpng/recipes-xcpng/xen"]
+	path = meta-xcpng/recipes-xcpng/xen
+	url = https://github.com/xcp-ng-rpms/xen.git
+[submodule "meta-xcpng/recipes-epel-queue/dev86"]
+	path = meta-xcpng/recipes-epel-queue/dev86
+	url = https://github.com/xcp-ng-rpms/dev86.git
+[submodule "meta-xcpng/recipes-xcpng/opam"]
+	path = meta-xcpng/recipes-xcpng/opam
+	url = https://github.com/xcp-ng-rpms/opam.git
+[submodule "meta-xcpng/recipes-xcpng/xs-opam-src"]
+	path = meta-xcpng/recipes-xcpng/xs-opam-src
+	url = https://github.com/xcp-ng-rpms/xs-opam-src.git
+[submodule "meta-xcpng/recipes-xcpng/xs-opam-repo"]
+	path = meta-xcpng/recipes-xcpng/xs-opam-repo
+	url = https://github.com/xcp-ng-rpms/xs-opam-repo.git
+[submodule "meta-xcpng/recipes-xcpng/sm"]
+	path = meta-xcpng/recipes-xcpng/sm
+	url = https://github.com/xcp-ng-rpms/sm.git
+[submodule "meta-xcpng/recipes-epel-queue/python-bitarray"]
+	path = meta-xcpng/recipes-epel-queue/python-bitarray
+	url = https://github.com/xcp-ng-rpms/python-bitarray.git
+[submodule "meta-xcpng/recipes-xcpng/blktap"]
+	path = meta-xcpng/recipes-xcpng/blktap
+	url = https://github.com/xcp-ng-rpms/blktap.git
