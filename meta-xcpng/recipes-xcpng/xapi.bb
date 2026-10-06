@@ -1,1 +1,33 @@
 inherit srpm-intree
+
+RDEPENDS:forkexecd = "dmidecode kpatch jemalloc"
+RDEPENDS:forkexecd-devel = "ocaml xs-opam-repo forkexecd"
+RDEPENDS:message-switch = "libev"
+RDEPENDS:message-switch-devel = "ocaml xs-opam-repo xapi-libs-devel"
+RDEPENDS:qcow-stream-tool = "libev"
+RDEPENDS:rrdd-plugins = "sysstat jemalloc libev xen-dom0-tools"
+RDEPENDS:sm-cli = "libev pciutils-libs"
+RDEPENDS:squeezed = "xen-dom0-libs"
+RDEPENDS:varstored-guard = "libev"
+RDEPENDS:vhd-tool = "libev"
+RDEPENDS:wsproxy = "libev"
+RDEPENDS:xapi-client-devel = "xs-opam-repo ocaml"
+#FIXME: ssmtp dmv-utils iptables-legacy python3-opentelemetry-exporter-zipkin python3-xcp-libs vmss oxenstored
+RDEPENDS:xapi-core = "sm openssl initscripts kpatch rsync libev pciutils-libs busybox hwdata ipmitool iproute nbd openssl-perl python3-fasteners python3-pyudev xcp-ng-release-config createrepo_c jemalloc samba-winbind stunnel tdb-tools xcp-ng-release-presets"
+RDEPENDS:xapi-datamodel-devel = "xs-opam-repo ocaml"
+RDEPENDS:xapi-idl-devel = "forkexecd-devel"
+RDEPENDS:xapi-libs-devel = "forkexecd-devel xs-opam-repo"
+RDEPENDS:xapi-nbd = "libev"
+RDEPENDS:xapi-storage-script = "libev jemalloc"
+RDEPENDS:xapi-storage-ocaml-plugin-devel = "ocaml xapi-storage-ocaml-plugin-runtime"
+RDEPENDS:xapi-storage-ocaml-plugin-runtime = "ocaml-runtime xs-opam-repo"
+RDEPENDS:xapi-tests = "xen-dom0-libs libev"
+#FIXME: openvswitch dhcp-client
+RDEPENDS:xcp-networkd = "bridge-utils ethtool"
+RDEPENDS:xcp-rrdd = "xen-dom0-libs"
+RDEPENDS:xcp-rrdd-devel = "xs-opam-repo xen-ocaml-devel forkexecd-devel"
+RDEPENDS:xenopsd = "libev jemalloc swtpm swtpm-tools sm xen-dom0-tools python3-scapy"
+RDEPENDS:xenopsd-cli = "xenopsd"
+RDEPENDS:xenopsd-simulator = "xenopsd"
+#FIXME: emu-manager
+RDEPENDS:xenopsd-xc = "xen-hypervisor kernel-xcpng xen-dom0-tools qemu"
