@@ -61,3 +61,6 @@
 [submodule "meta-xcpng/recipes-xcpng/xcp-clipboardd"]
 	path = meta-xcpng/recipes-xcpng/xcp-clipboardd
 	url = https://github.com/xcp-ng-rpms/xcp-clipboardd.git
+[submodule "meta-xcpng/recipes-xcpng/oxenstored"]
+	path = meta-xcpng/recipes-xcpng/oxenstored
+	url = https://github.com/xcp-ng-rpms/oxenstored.git
