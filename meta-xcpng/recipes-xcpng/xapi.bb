@@ -31,3 +31,20 @@ RDEPENDS:xenopsd-cli = "xenopsd"
 RDEPENDS:xenopsd-simulator = "xenopsd"
 #FIXME: emu-manager
 RDEPENDS:xenopsd-xc = "xen-hypervisor kernel-xcpng xen-dom0-tools qemu"
+
+# compensate for broken loops on perl-libs
+DEPENDS:append = " \
+  rpm/perl-Encode \
+"
+
+# compensate for broken loops on git
+DEPENDS:append = " \
+  rpm/perl-Git \
+"
+
+# compensate for broken loops on perl-Getopt-Long
+DEPENDS:append = " \
+  rpm/perl-Pod-Usage \
+"
+
+# whatever
